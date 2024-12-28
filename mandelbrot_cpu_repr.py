@@ -10,7 +10,7 @@ win_size = (size, size)
 pg.init()
 screen = pg.display.set_mode(win_size)
 center = size/2
-fractal_scale = size/4
+fractal_scale = size/5
 iterations = 10
 clock = pg.time.Clock()
 square_check = False
