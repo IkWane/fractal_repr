@@ -17,6 +17,7 @@ square_check = False
 check_distance = 5
 
 while 1 :
+    clock.tick()
     for event in pg.event.get() :
         if (
             event.type == pg.QUIT or 
