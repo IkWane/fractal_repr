@@ -1,7 +1,7 @@
 import pygame as pg
 import pygame_shaders as pgs
 import sys
-from math import sqrt, exp
+from math import exp
 
 def func(z, c) :
     return z**2 + c
